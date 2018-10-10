@@ -10,7 +10,7 @@ body{
 	background: url(img.jpg);
 	background-size: cover;
 	background-position: center;
-	background-repeat: no-repeat;
+	/*background-repeat: no-repeat;*/
 }
 /*Global*/
 .container{
@@ -101,27 +101,25 @@ header a:hover{
 .btn{
 	text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#id {
+	font-size: 65px;
+}
+#rules{
+	font-size: 15px;
+	text-align: left;
+}
+#boxes{
+	margin-top: 120px;
+}
+#boxes .box{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+#boxes h1{
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 25px;
+	border: 3px;
+}
