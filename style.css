@@ -1,0 +1,123 @@
+html,body{
+	height: 100%;
+}
+body{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background: url(img.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+/*Global*/
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+	color: white;
+}
+/*Header*/
+header{
+	background: rgba(0,0,0,0.5);
+	padding-top: 15px;
+	min-height: 70px;
+}
+header a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+header ul{
+	margin: 0;
+	padding: 0;
+}
+header li{
+	float: left;
+	display: inline;
+	padding:0 20px 0 20px; 
+}
+header #branding{
+	float: left;
+}
+header nav{
+	float: right;
+	margin-top: 35px;
+}
+header .current a{
+	font-weight: bold;
+}
+header a:hover{
+	font-weight: bold;
+	color: yellow;
+	/*text-decoration: underline;*/
+}
+/*Showcase*/
+#showcase h1{
+	margin-top: 10px;
+	font-size: 55px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	text-align: center;
+}
+#showcase p{
+	margin-top: 10px;
+	font-size: 20px;
+	text-align: center;
+}
+#showcase #p1{
+	margin-top: 110px;
+}
+#showcase a{
+	background-color: transparent;
+	color: white;
+	border: none;
+	font-size: 12px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	line-height: 40px;
+	width: 125px;
+	font-weight: bold;
+	margin-top: 25px;
+	border: 2px solid white;
+	text-decoration: none;
+	padding: 11px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 20px;
+}
+#showcase a:hover{
+	background-color: white;
+	color: yellow;
+	font-size: 12px;
+}
+.btn{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
