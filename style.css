@@ -10,7 +10,8 @@ body{
 	background: url(img.jpg);
 	background-size: cover;
 	background-position: center;
-	/*background-repeat: no-repeat;*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 /*Global*/
 .container{
